@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+a {
+  float: left;
+  padding-right: 1.2%;
+  text-decoration: none;
+  font-size: large;
+}
+.header {
+  padding-left: 3%;
+}
+/* .searchBar {
+  margin-left: 25%;
+} */
+
+.searchBar:focus {
+  margin: none;
+  border: none;
+}
+.header a {
+  color: #c4c3ca;
+}
+.header a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.outerLayer {
+  background-color: #1f2029;
+  /* background-color: #c4c3ca; */
+}
+.NavBar {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  /* height: 50px; */
+  width: 100%;
+}
+.logo {
+  padding-bottom: 5%;
+}
